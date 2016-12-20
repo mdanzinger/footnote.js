@@ -1,0 +1,22 @@
+{
+  "name": "footnote",
+  "version": "0.0.1",
+  "description": "Simple JS library to add interactive footnotes",
+  "main": "footnote.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdanzinger/footnote.js.git"
+  },
+  "author": "Mendy Danzinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mdanzinger/footnote.js/issues"
+  },
+  "homepage": "https://github.com/mdanzinger/footnote.js#readme",
+  "dependencies": {
+    "node-minify": "^2.0.2"
+  }
+}
