@@ -1,6 +1,18 @@
-var user = "A string",
-    user_length = user.length;
+var footnote = (function(){
+    "use strict";
+    function init() {
+       //Core footnote logic
+    };
 
-for (i = 0; i<=user_length; i++) {
-    console.log("U us ")
-}
+    // Close function
+
+
+    var config = {
+        clickAnywhereToClose: true,
+
+    };
+    return {
+        init:init,
+        config:config
+    }
+})();
