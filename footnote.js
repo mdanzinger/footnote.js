@@ -95,9 +95,10 @@ var footnote = (function(){
      */
     function destroy(){
         footnoteBox.destroy();
-        //TODO Fix removeEventListener...
+
         _allFootnoteElements.forEach(function(footnote) {
-            footnote.element.removeEventListener((config.hover ? "hover" : "click"), footnoteBox.place(footnote), false);
+               var footnoteClone = footnote.element.cloneNode(true);
+                footnote.element.parentNode.replaceChild(footnoteClone, footnote.element);
         })
     }
 
