@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/mdanzinger/footnote.js#readme",
   "dependencies": {
-    "node-minify": "^2.0.2"
+    "node-minify": "^2.0.2",
+    "node-sass"  : "~4.3.0 "
   }
 }
